@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatTheShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ce1421168.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <div class="container">
+     <div class="navbar">
+      <h1 class="logo">WhatTheShop!?</h1>
+      <nav>
+        <ul  class="nav_links" id="MenuItems">
+         <li class="drpdwn" ><a href="#Home">Home</a></li>
+         <li class="drpdwn drpdwn-button" ><a href="#">Products</a>
+          <div class="drpdwn-content">
+            <a href="#feat">Featured</a>
+            <a href="#latest">Latest</a>
+            <a href="#offer">Offers</a>
+          </div>
+        </li>
+         <li class="drpdwn" ><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <a href="#Cart"><button class="cart"><i class="fa-solid fa-cart-shopping"></i></button></a>
+      <a href="#Menu"><button class="menu" onclick="menutoggle()"><i class="fa-solid fa-bars"></i></button></a>
+     </div>
+    </div>
+     <div id="Home" class="bg-image">
+      <img src="img/pcCover.jpeg" alt="pcCover">
+    </div>
+     <div class="row">
+      <div class="col-2 bg-text">
+        <h1>Build Your Dream PC</h1>
+        <p>Enjoy High-End Components for Reasonable Prices!</p>
+        <a href="#Pcpart" class="btn">Explore Now!</a>
+      </div>
+     </div>
+    </header>
+
+<!------ featured Categories ------>
+
+<div id="Pcpart" class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="img/rtx3090.jpg" width="150px" height="250px">
+      </div>
+      <div class="col-3">
+        <img src="img/ry55600x.jpg" width="150px" height="250px">
+      </div>
+      <div class="col-3">
+        <img src="img/keyb1.jfif" width="150px" height="250px">
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!------ featured Products ------>
+<div id="feat" class="small-container">
+  <h2 class="title">Featured Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="img/rtx4090.jpg" width="300px" height="250px" />
+      <h4>ASUS TUF GAMING RTX 4090 OC EDITION</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱128,995.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/msigtx1650.jpg" width="300px" height="250px" />
+      <h4>MSI GeForce GTX 1650 Ventus XS 4GB OCV1 Edition</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱10,995.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/rx550.jfif" width="300px" height="250px" />
+      <h4>POWERCOLOR RED DRAGON RX 550</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱7,000.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/rx6500xt.jpg" width="300px" height="250px" />
+      <h4>MSI RADEON RX 6500XT MECH 2X</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱11,800.00</p>
+    </div>
+  </div>
+
+
+  <!------ Latest Products ------>
+  <h2 id="latest" class="title">Latest Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="img/rtx4090.jpg" width="300px" height="250px" />
+      <h4>ASUS TUF GAMING RTX 4090 OC EDITION</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱128,995.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/msigtx1650.jpg" width="300px" height="250px" />
+      <h4>MSI GeForce GTX 1650 Ventus XS 4GB OCV1 Edition</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱10,995.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/inteli512.jpg" width="300px" height="250px" />
+      <h4>INTEL CORE I5-12400 ALDER LAKE</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱13,004.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/inteli510.jpg" width="300px" height="250px" />
+      <h4>INTEL CORE i5-10400F 2.9GHZ PROCESSOR</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱9,150.00</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="img/amdry7.jpg" width="300px" height="250px" />
+      <h4>AMD RYZEN 7 5700X 3.7GHZ PROCESSOR</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱12,939.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/amd5pro.jpg" width="300px" height="250px" />
+      <h4>AMD RYZEN 5 PRO 4650G 3.7GHZ PROCESSOR</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+      </di>
+      <p class="price">₱6,048.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/aiogammax.jpg" width="300px" height="250px" />
+      <h4>DEEPCOOL GAMMAXX L240 V2 AIO LIQUID COOLER</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱2,845.00</p>
+    </div>
+    <div class="col-4">
+      <img src="img/inplaycase.jpg" width="300px" height="250px" />
+      <h4>INPLAY METEOR 03 MID TOWER TEMPERED GLASS</h4>
+      <di class="rating">
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star"></i>
+        <i class="fa fa-solid fa-star-half-stroke"></i>
+        <i class="fa fa-regular fa-star"></i>
+      </di>
+      <p class="price">₱1,018.00</p>
+    </div>
+  </div>
+</div>
+
+<!-----OFFERS---->
+<div id="offer" class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="img/asusvp.png" class="offer-img">
+      </div>
+      <div class="col-3">
+        <p>Exclusively Available on WhatTheShop!?</p>
+        <h1>Asus VP249QGR 24" 144Hz IPS Gaming Monitor</h1>
+        <small>8-inch Full HD (1920x1080) LED backlight display with IPS 178° 
+          wide viewing angle panel. Up to144Hz refresh rate with Adaptive-Sync (FreeSync™) 
+          technology to eliminate tracingand ensure crisp and clear video playback</small><br>
+          <a href="#" class="btn" >Buy Now!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----testimonials---->
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <i class="fa fa-solid fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna nunc, 
+          molestie sit amet est at, laoreet consectetur turpis. Interdum et malesuada
+           fames ac ante ipsum primis in faucibus.</p>
+           <div class="rating">
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+           </div>
+           <h3>Christopher Judge</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-solid fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna nunc, 
+          molestie sit amet est at, laoreet consectetur turpis. Interdum et malesuada
+           fames ac ante ipsum primis in faucibus.</p>
+           <div class="rating">
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+           </div>
+           <h3>Arthur Morgan</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-solid fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna nunc, 
+          molestie sit amet est at, laoreet consectetur turpis. Interdum et malesuada
+           fames ac ante ipsum primis in faucibus.</p>
+           <div class="rating">
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-solid fa-star"></i>
+           </div>
+           <h3>Ellie Williams</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----ABOUT----->
+<div id="about" class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="img/mugshot.jpg" class="about-img">
+      </div>
+      <div class="col-3">
+        <p>About The Creator</p>
+        <h1>Chaelsy Benj J. Jumawan</h1>
+        <p>A 17 year old, shs student who is passionate about games and dreams to become a Game Developer</p>
+        <br>
+        <table>
+          <th><h3>Favorite Games</h3></th>
+          <tr>
+            <td>
+              <ul class="favegames">
+                <li>Persona 5</li>
+                <li>God of War (2018)</li>
+                <li>The Last of Us</li>
+                <li>Disco Elysium</li>
+                <li>Fire Emblem Series</li>
+              </ul>
+            </td>
+          </tr>
+          <th><h3>Skills</h3></th>
+          <tr>
+            <td>
+              <ul class="favegames">
+                <li>HTML - Studied for 6 Months</li>
+                <li>CSS - Studied for 4 Months</li>
+                <li>JavaScript - Studied for 1 Month</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-----Brands---->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="img/amdlogo.png" />
+      </div>
+      <div class="col-5">
+        <img src="img/intellogo.png" />
+      </div>
+      <div class="col-5">
+        <img src="img/nvidialogo.jpg" />
+      </div>
+      <div class="col-5">
+        <img src="img/asuslogo.png" />
+      </div>
+      <div class="col-5">
+        <img src="img/roglogo.png" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!----Footer--->
+<div class="footer">
+  <div class="small-container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h1>WhatTheShop!?</h1>
+        <p>Our purpose is to provide Pc Components at a Reasonable Price</p>
+      </div>
+      <div class="footer-col-2">
+        <h3>Our Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+    </div>
+    <div class="footer-col-3">
+      <h3>Follow Us!</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+      </ul>
+  </div>
+  </div>
+</div>
+
+<script src="script.js" type="application/javascript"></script>
+</body>
+
+</html>
