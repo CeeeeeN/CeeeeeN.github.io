@@ -17,6 +17,27 @@ body {
     padding-right: 25px;
 }
 
+#header {
+    background-color: #24252A;
+
+  }
+
+
+#header a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+
 .navbar {
     background-color: #24252A;
     display: flex;
