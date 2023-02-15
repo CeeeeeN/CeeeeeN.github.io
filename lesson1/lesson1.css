@@ -1,0 +1,153 @@
+body {
+    background-color: #24252A;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar {
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-width: 3px; 
+    
+}
+
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a, button {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+}
+
+.nav_links {
+    list-style-type: none;
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+.drpdwn-content:hover {
+    background-color: #555;
+    
+  }
+
+.drpdwn-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #edf0f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: right;
+}
+
+.drpdwn-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.drpdwn-content a:hover {
+    background-color: #f1f1f1;
+    
+}
+
+.drpdwn:hover .drpdwn-content {
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 450px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.offer {
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
